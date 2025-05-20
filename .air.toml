@@ -2,7 +2,7 @@ root = "."
 testdata_dir = "testdata"
 
 [run]
-  cmd = "go run main.go"
+  cmd = "go run ./cmd/web"
   delay = 1000
   include_ext = ["go"]
 
